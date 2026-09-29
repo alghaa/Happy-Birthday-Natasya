@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loader">
+    <div class="loader-heart">♡</div>
+  </div>
+
+  <main class="site">
+    <!-- Opening screen -->
+    <section class="opening" id="opening">
+      <div class="stars"></div>
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+
+      <div class="gift-wrap" id="giftWrap">
+        <div class="gift-lid"></div>
+        <div class="gift-box">
+          <div class="gift-ribbon-v"></div>
+          <div class="gift-ribbon-h"></div>
+        </div>
+        <div class="gift-bow">
+          <span></span><span></span><i></i>
+        </div>
+      </div>
+
+      <p class="mini-text">A little surprise for you</p>
+      <h1>Open Your<br><span>Birthday Gift</span> ✨</h1>
+      <p class="hint">Klik tombol di bawah untuk membuka kejutan</p>
+      <button class="open-btn" id="openBtn">
+        <span>BUKA KEJUTAN</span>
+        <b>→</b>
+      </button>
+    </section>
+
+    <!-- Birthday screen -->
+    <section class="birthday" id="birthday">
+      <div class="top-decor">
+        <span class="balloon b1">🎈</span>
+        <span class="balloon b2">🎈</span>
+        <span class="balloon b3">🎈</span>
+        <span class="balloon b4">🎈</span>
+      </div>
+
+      <div class="content">
+        <div class="eyebrow">✨ SPECIAL DAY ✨</div>
+        <h2>Happy Birthday</h2>
+        <h3 id="name">Untuk Kamu 💗</h3>
+        <p class="date">A day made just for you</p>
+
+       <div class="photo-card">
+  <img src="images/ultahh.png" alt="Foto Natt" class="birthday-photo">
+</div>
+        <div class="message-card">
+          <p id="typing"></p>
+          <div class="signature">With love, <span>Someone who cares ♡</span></div>
+        </div>
+      </div>
+
+      <div class="bottom-hearts" aria-hidden="true">
+        <span>♡</span><span>♥</span><span>♡</span><span>♥</span><span>♡</span>
+      </div>
+    </section>
+  </main>
+
+  <div class="music-control" id="musicControl" title="Musik">
+    ♪
+  </div>
+  <audio id="music" loop preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
